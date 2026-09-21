@@ -1,0 +1,684 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+}
+
+
+
+/* NAVIGATION*/
+
+.navigation {
+
+    height: 50px;
+
+    background-color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 250px;
+
+    gap: 35px;
+}
+
+
+/* Apple Logo */
+
+.logo {
+
+    font-size: 50;
+
+}
+
+
+/* Menu */
+
+.menu {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: center;
+}
+
+
+.menu a {
+
+    text-decoration: none;
+
+    color: #333;
+
+    font-size: 14px;
+}
+
+
+
+/*HERO SECTION*/
+
+.hero {
+
+    height: 610px;
+
+    background-color: #5b8fc7;
+
+    position: relative;
+
+    text-align: center;
+
+    color: white;
+
+    overflow: hidden;
+}
+
+
+
+/* Apple */
+
+.apple {
+
+    font-size: 300px;
+
+    padding-top: 70px;
+
+    color: white;
+
+    text-shadow:
+
+        0 0 15px white,
+
+        0 0 35px #d8f3ff,
+
+        0 0 70px #a9dcff,
+
+        0 0 100px #a9dcff;
+}
+
+
+
+/* Hero Text */
+
+.hero-text {
+
+    position: absolute;
+
+    bottom: 65px;
+
+    width: 100%;
+
+}
+
+
+.hero-text h1 {
+
+    font-size: 24px;
+
+    line-height: 1.3;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* Button */
+
+.hero-text button {
+
+    background-color: white;
+
+    color: #222;
+
+    border: none;
+
+    padding: 14px 25px;
+
+    border-radius: 25px;
+
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+
+
+
+  /* IPHONE DUO SECTION*/
+
+
+.iphone-duo {
+
+    width: 100%;
+
+    height: 740px;
+
+    background-color: #f5f5f7;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    padding-top: 30px;
+
+}
+
+
+
+.iphone-duo h2 {
+
+    font-size: 68px;
+
+    font-weight: 700;
+
+    letter-spacing: -3px;
+
+    color: #1d1d1f;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+/* SUBTITLE */
+
+.iphone-duo h3 {
+
+    font-size: 34px;
+
+    font-weight: 400;
+
+    color: #1d1d1f;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+/* INFORMATION TEXT */
+
+.iphone-duo p {
+
+    font-size: 23px;
+
+    line-height: 1.3;
+
+    color: #6e6e73;
+
+    margin-bottom: 18px;
+
+}
+
+
+
+/* BUTTON AREA */
+
+.iphone-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+/*LEARN MORE BUTTON */
+
+.learn {
+
+    background-color: #0077ed;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 27px;
+
+    border-radius: 30px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+/*VIEW PRICING BUTTON */
+
+.pricing {
+
+    background-color: transparent;
+
+    color: #0077ed;
+
+    border: 1.5px solid #0077ed;
+
+    padding: 13px 27px;
+
+    border-radius: 30px;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* =====================================================
+   BUTTON HOVER
+===================================================== */
+
+.learn:hover {
+
+    background-color: #006edb;
+
+}
+
+
+.pricing:hover {
+
+    background-color: #0077ed;
+
+    color: white;
+
+}
+
+
+
+/* =====================================================
+   IPHONE IMAGE
+===================================================== */
+
+.iphone-image {
+
+    margin-top: 28px;
+
+    width: 100%;
+
+    height: 400px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    overflow: hidden;
+
+}
+
+
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.iphone-image img {
+
+    width: 600px;
+
+    height: auto;
+
+    display: block;
+
+}
+
+
+
+
+
+/* =====================================================
+   APPLE UPGRADE SECTION
+===================================================== */
+
+.upgrade {
+
+    width: 100%;
+
+    height: 700px;
+
+    background-color: #f5f5f7;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    padding-top: 50px;
+
+}
+
+
+
+/* =====================================================
+   UPGRADE TITLE
+===================================================== */
+
+.upgrade h2 {
+
+    font-size: 68px;
+
+    font-weight: 700;
+
+    letter-spacing: -3px;
+
+    color: #1d1d1f;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+/* Apple Logo */
+
+.upgrade-logo {
+
+    font-size: 65px;
+
+    margin-right: 5px;
+
+}
+
+
+
+/* =====================================================
+   SUBTITLE
+===================================================== */
+
+.upgrade h3 {
+
+    font-size: 34px;
+
+    font-weight: 400;
+
+    color: #1d1d1f;
+
+    margin-bottom: 20px;
+
+}
+
+
+.upgrade h3 sup {
+
+    font-size: 15px;
+
+    position: relative;
+
+    top: -10px;
+
+}
+
+
+
+/* =====================================================
+   LEARN MORE BUTTON
+===================================================== */
+
+.upgrade-button {
+
+    background-color: #0077ed;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 28px;
+
+    border-radius: 30px;
+
+    font-size: 19px;
+
+    cursor: pointer;
+
+}
+
+
+.upgrade-button:hover {
+
+    background-color: #006edb;
+
+}
+
+
+
+/* =====================================================
+   UPGRADE IMAGE
+===================================================== */
+
+.upgrade-image {
+
+    width: 100%;
+
+    height: 430px;
+
+    margin-top: 45px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    overflow: hidden;
+
+}
+
+
+
+/* =====================================================
+   IPHONE IMAGE
+===================================================== */
+
+.upgrade-image img {
+
+    width: 430px;
+
+    height: auto;
+
+    display: block;
+
+}
+
+
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 12px;
+}
+
+.box {
+    height: 650px;
+    background-color: #f5f5f7;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.box h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+.box button {
+    background-color: #0077ed;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 15px 5px;
+}
+
+.box img {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.white-button {
+    background-color: transparent !important;
+    border: 1px solid #0077ed !important;
+    color: #0077ed !important;
+}
+
+.blue {
+    background-color: #e5f5ff;
+}
+
+/* Legal information */
+
+.legal {
+    background-color: #f5f5f7;
+    padding: 45px 18%;
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.legal p {
+    margin-bottom: 18px;
+}
+
+.legal ol {
+    padding-left: 22px;
+}
+
+.legal li {
+    padding-left: 5px;
+    margin-bottom: 18px;
+}
+
+.legal i {
+    font-style: italic;
+}
+
+.legal u {
+    color: #555;
+}
+
+.border {
+    width: 100%;
+    height: 1px;
+    background-color: #d2d2d7;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 35px;
+    align-items: start;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    color: #1d1d1f;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 13px 0;
+    line-height: 1.2;
+}
+
+.footer-column a {
+    color: #6e6e73;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-column .footer-subtitle {
+    margin-top: 19px;
+    margin-bottom: 13px;
+}
+
+.shop-more {
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    color: #6e6e73;
+    line-height: 1.4;
+    font-size: 12px;
+}
+
+.shop-more a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.copyright {
+    color: #6e6e73;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links span {
+    color: #86868b;
+}
+
+.country {
+    color: #6e6e73;
+}
+
+
+
