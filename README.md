@@ -1,0 +1,2 @@
+This project brings Apple's elegant design style into a personal front-end development experience. From the navigation bar to the individual product sections, every part of the website is designed to provide a clean and engaging visual experience.
+The website includes a dedicated Apple-inspired landing section, product showcases, promotional content, and a footer with informational links. It helped me understand how to structure webpages, organize content, work with images, and create attractive layouts using HTML and CSS.
